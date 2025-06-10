@@ -3,7 +3,7 @@ name = "projeto-ml"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Franciele-Santos-Silva",email = "franciellysantos876@gmail.com"}
+    {name = "Franciele-Santos-Silva", email = "franciellysantos876@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.10"
@@ -16,7 +16,7 @@ dependencies = [
 
 [tool.poetry]
 packages = [{include = "projeto_ml", from = "src"}]
-
+package-mode = false
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.29.5"
